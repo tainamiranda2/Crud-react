@@ -1,0 +1,21 @@
+{
+  "Create": [],
+  "Categories":[
+    {
+      "id":1,
+      "name": "Sonho"
+    },
+    {
+      "id":2,
+      "name": "Trabalho"
+    },
+    {
+      "id":3,
+      "name": "Cultura"
+    },
+    {
+      "id":4,
+      "name": "Morar"
+    },
+  ]
+}
