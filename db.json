@@ -1,6 +1,6 @@
 {
-  "Create": [],
-  "Categories":[
+  "create": [],
+  "categories":[
     {
       "id":1,
       "name": "Sonho"
@@ -16,6 +16,6 @@
     {
       "id":4,
       "name": "Morar"
-    },
+    }
   ]
 }

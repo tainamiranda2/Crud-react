@@ -1,4 +1,6 @@
-import Styles from './Styles'
+
+import * as C from './Styles';
+
 function Container(props) {
   return (
     <C.Container>

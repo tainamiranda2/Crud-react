@@ -9,7 +9,7 @@ import {Edit} from './pages/Edit';
 import {Create} from './pages/Create';
 
 import {Delete} from './pages/Delete';
-
+import {Projeto} from './pages/Projetos';
 export const Router=()=>{
   return(
   
@@ -24,6 +24,9 @@ export const Router=()=>{
       <Route path="/step3" element={<Edit/>}/>
 
       <Route path="/step4" element={<Delete/>}/>
+
+      <Route path="/step5" element={<Projeto/>}/>
+
       </Routes>
     </BrowserRouter>
      

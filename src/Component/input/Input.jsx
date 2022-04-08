@@ -1,5 +1,5 @@
 import React from 'react';
-
+import * as C from './styles';
 //criando compoent de input
 function Input({type,
                 text,
@@ -8,12 +8,12 @@ function Input({type,
                 handleOnChange,
                 value}) {
   return (
-    <>
+    <C.Container>
     <label
       htmlFor={name}>
       {text}:
     </label>
-      
+      <br/>
     <input 
       type={type}
       name={name}
@@ -22,7 +22,7 @@ function Input({type,
       onChange={handleOnChange}
       value={value}
       />
-    </>
+    </C.Container>
   )
 }
 
