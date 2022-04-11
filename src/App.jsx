@@ -1,14 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Container } from './Layout/Navegar/Styles';
+import Container from './Layout/Navegar/Container';
+import  Footer  from './Layout/footer/Footer';
+
 import {Router} from './router';
 //"@vitejs/plugin-react-refresh": "^1.3.0",
 function App() {
   return (
-    <Container>
-    
+    <>
+    <Container/> 
     <Router/>
-    </Container>
+
+    <Footer/>
+    </>
   );
 }
 

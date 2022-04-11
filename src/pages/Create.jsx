@@ -7,7 +7,8 @@ import Input from "../Component/input/Input"
 import Select from "../Component/select/Select"
 
 import Submit from "../Component/button/Submit";
-//{text}
+//import {Projeto} from './Projetos';
+
 export const Create=({btxText,handleSubmit,createData})=>{
 //criando os states
 const [categories, setCategorias]= useState([])
@@ -29,11 +30,11 @@ const [create,setCriar]=useState(createData || {})
       })
       .catch((err)=> console.log(err));
   }, [])
-//criando minha função
+//criando minha função para o metodo não da reload
 const submit=(e)=>{
   e.preventDefault()
   //console.log(create)
-  handleSubmit(criar)
+  handleSubmit(create)
 }
 //mudando o state e pegando do input
 function handleChange(e){
