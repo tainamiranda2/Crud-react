@@ -5,17 +5,22 @@ export const Container=styled.div`
 color:white;
 background:red;
 padding:20px;
-justify-content:center;
-li{
+
+
+ul li{
   background: white;
   color: black;
   margin: 5px; 
   padding: 10px;
-  width:100%;
+  display: inline;
+  justify-content:center;
+}
+li: hover{
+  background: black;
+  color: white;
 }
   @media(width: 600px){
     justify-content:space-between;
     flex-direction:rows;
-
   }
   `;

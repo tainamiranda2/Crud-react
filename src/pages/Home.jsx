@@ -1,5 +1,4 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
 import { Create } from './Create';
 import { useNavigate } from "react-router-dom";
 //impotanodo o componente
@@ -31,7 +30,7 @@ const history=useNavigate();
   }
 
   return (
-    <>
+    <C.Container>
    
      <h1>Bem - vindo</h1>
     
@@ -42,7 +41,7 @@ const history=useNavigate();
       btxText="Criando um projeto"/>
 
       
-    </>
+    </C.Container>
   )
 }
 

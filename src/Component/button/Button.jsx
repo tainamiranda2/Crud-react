@@ -4,11 +4,12 @@ import  * as C from  './style';
 //criando o compoenet de botão 
 function Button({to, text}) {
   return (
-  
+  <C.Container>
     <Link to={to}>
+      
     {text}
     </Link>
-     
+    </C.Container>
   )
 }
 export default Button;

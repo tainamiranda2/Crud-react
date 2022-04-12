@@ -1,6 +1,6 @@
 import React from 'react';
 import * as C from './Styles';
-//import Entrar from '../../pages/Home'
+//import Entrar from '../../pages/Home';
 
 function Container(props) {
   return (
