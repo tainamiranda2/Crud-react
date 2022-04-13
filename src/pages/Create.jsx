@@ -1,12 +1,15 @@
 import React from 'react';
 import {useState,useEffect} from 'react'
 import {useNavigate} from  'react-router-dom'
+import * as C from './style';
 
 import Input from "../Component/input/Input"
 
 import Select from "../Component/select/Select"
 
 import Submit from "../Component/button/Submit";
+//import form from './style';
+
 //import {Projeto} from './Projetos';
 
 export const Create=({btxText,handleSubmit,createData})=>{
@@ -53,10 +56,11 @@ function handleCategory(e){
  //npx browserslist@latest --update-db
 }
 return(
-  
+  <C.Container>
 <form onSubmit={submit}>
  <h1>Criar o projeto</h1>
   <p>Criar o projeto e depois adicionar quanto vai guar para realizar seu sonho</p>
+ 
   <Input 
     type="text"
     text="Nome do lugar"
@@ -87,7 +91,8 @@ return(
    text={btxText}
    />
 </form>
-
+<img src="https://st2.depositphotos.com/35763774/43259/v/1600/depositphotos_432592632-stock-illustration-young-man-working-home-office.jpg"/>
+</C.Container>
  
  ) 
   }
