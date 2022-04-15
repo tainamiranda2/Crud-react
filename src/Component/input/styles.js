@@ -8,17 +8,15 @@ label{
     padding: 20px;
     color: black;
     font-weight: bold;
-
+    color:#fff;
 }
 
 input{
     padding: 10px;
-    color:#FFDAB9
-    border: 2px solid #000;
-    border-radius: 5px;
+    color:#FFDAB9;
 }
 input:hover{
-border: 5px red solid;
+border: solid 5px #907;
 color:black;
 }
 `

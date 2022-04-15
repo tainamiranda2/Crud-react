@@ -1,24 +1,23 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width:30%;
    color:#fff;
-   padding: 10px;
-   margin: 4px;
-   border-radius: 20px;
+   border-radius: 10px;
    cursor: pointer;
-    margin-top: 30px;
+   margin-top: 30px;
 
 button{
-    background: #000;
-    color:#FFDAB9;
-    padding:10px;
-    margin: 5px;
-    border-radius: 20px;
+    background: #fff;
+    color:#000;
+    padding:20px;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 30px;
 }
-
+button:hover{
+background:#000;
+color:#fff;
+}
 `;
 
 

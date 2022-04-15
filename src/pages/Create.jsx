@@ -58,9 +58,7 @@ function handleCategory(e){
 return(
   <C.Container>
 <form onSubmit={submit}>
- <h1>Criar o projeto</h1>
-  <p>Criar o projeto e depois adicionar quanto vai guar para realizar seu sonho</p>
- 
+ <h3>Guarde suas informações</h3>
   <Input 
     type="text"
     text="Nome do lugar"
