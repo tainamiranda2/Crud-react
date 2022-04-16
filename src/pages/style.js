@@ -14,13 +14,44 @@ text-align:center;
   width:600px;
   background-image: linear-gradient(160deg, #de9fff 0, #c58cf2 50%, #ab79e6 100%);;
 }
-
+fieldset{
+  background:#ab79e6;
+ display:flex;
+  justify-content:space-between;
+  align-items:center;
+ 
+}
+button{
+border-radius:10px;
+background:#ab79e6;
+color:#fff;
+padding:20px;
+margin:20px;
+}
+fieldset p {
+  color: #fff;
+  margin: 5px;
+}
+fieldset span{
+  color:#fff;
+  margin: 5px;
+}
 h3 {
-  font-weight: bold;
+font-weight: bold;
  justify-content:center; 
  margin:10px;
  text-align:center;
 color: #fff;
+}
+
+h2{
+  margin:10px;
+  font-weight: bold;
+  justify-content:center; 
+  text-align:center;
+padding:10px;
+background:#fff;
+color:#c58cf2;
 }
 img{
   width: 600px;

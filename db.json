@@ -10,7 +10,13 @@
       "id": 1
     },
     {
-      "id": 2
+      "name": "Show do jonas",
+      "dinheiro": "100",
+      "category": {
+        "id": "3",
+        "name": "Cultura"
+      },
+      "id": 4
     }
   ],
   "categories": [

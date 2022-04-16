@@ -8,7 +8,6 @@ import {Edit} from './pages/Edit';
 //pagina de criacao
 import {Create} from './pages/Create';
 
-import {Delete} from './pages/Delete';
 import {Projeto} from './pages/Projetos';
 export const Router=()=>{
   return(
@@ -21,9 +20,7 @@ export const Router=()=>{
       
       <Route path="/step2" element={<Create/>}/>
       
-      <Route path="/step3" element={<Edit/>}/>
-
-      <Route path="/step4" element={<Delete/>}/>
+      <Route path="/step3/:id" element={<Edit/>}/>
 
       <Route path="/step5" element={<Projeto/>}/>
 
