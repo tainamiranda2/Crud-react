@@ -10,13 +10,22 @@
       "id": 1
     },
     {
-      "name": "Show do jonas",
-      "dinheiro": "100",
+      "name": "Marechal",
+      "dinheiro": "5000",
       "category": {
         "id": "3",
         "name": "Cultura"
       },
-      "id": 4
+      "id": 5
+    },
+    {
+      "name": "Curitiba",
+      "dinheiro": "7000",
+      "category": {
+        "id": "2",
+        "name": "Trabalho"
+      },
+      "id": 6
     }
   ],
   "categories": [

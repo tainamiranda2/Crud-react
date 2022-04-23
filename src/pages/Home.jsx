@@ -38,7 +38,6 @@ const history=useNavigate();
    <C.Container>
      <h1>Bem - vindo</h1>
     
-      <span>Clicando aqui voce pode ir criar um destino</span>
       </C.Container>
 
       <Create 

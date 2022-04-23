@@ -58,6 +58,12 @@ img{
   float:right;
 }
 
+@media screen and (max-width: 600px) {
+  
+  img{
+    display:none;
+  }
+}
 `
 
 ;

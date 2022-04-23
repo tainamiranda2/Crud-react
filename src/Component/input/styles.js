@@ -6,17 +6,16 @@ export  const Container = styled.div`
 }
 label{
     padding: 20px;
-    color: black;
-    font-weight: bold;
+   
     color:#fff;
+    font-size:20px;
 }
 
 input{
     padding: 10px;
-    color:#FFDAB9;
-}
-input:hover{
-border: solid 5px #907;
-color:black;
+  border-radius:10px;
+  font-size:12px;
+
+
 }
 `
