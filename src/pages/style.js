@@ -11,7 +11,8 @@ justify-content:center;
 margin-top:15px;
 text-align:center;
   font-weight:bold;
-  width:600px;
+  width:500px;
+  height:600px;
   background-image: linear-gradient(160deg, #de9fff 0, #c58cf2 50%, #ab79e6 100%);;
 }
 fieldset{
@@ -21,6 +22,8 @@ fieldset{
   align-items:center;
  
 }
+
+
 button{
 border-radius:10px;
 background:#ab79e6;
@@ -36,6 +39,7 @@ fieldset span{
   color:#fff;
   margin: 5px;
 }
+
 h3 {
 font-weight: bold;
  justify-content:center; 
@@ -54,7 +58,8 @@ background:#fff;
 color:#c58cf2;
 }
 img{
-  width: 600px;
+  width: 500px;
+height:600px;
   float:right;
 }
 

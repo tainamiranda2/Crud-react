@@ -1,28 +1,32 @@
+
 import React from 'react';
 import * as C from './Styles';
-//import Entrar from '../../pages/Home';
-import {Link} from 'react-router-dom';
-//import Criate from '../../pages/Projetos'
-function Container(props) {
-  return (
-    
-    <C.Container>
-    
-      <ul>
-        <li>
-           <a href="/">Home</a>
-            </li>
-        <li>
-          <a href="/step5">Projetos</a> 
-          </li>
-        <li>
-          <a href="/step2">Criar</a> 
-           </li>
-      </ul>
+import {Link,Outlet} from 'react-router-dom';
 
-    
-      {props.children}
-    </C.Container>
+import {BrowserRouter as Router} from 'react-router-dom';
+function Container() {
+  return (
+    <>
+  
+<Router>
+<C.Container>
+  <nav>
+  <ul>
+<li>
+           <Link to="/">Home</Link>
+        
+           </li>
+           <li>
+          <Link to="/step5">Projetos</Link> 
+          </li>
+         
+          </ul> 
+          </nav>
+          
+          </C.Container>
+          <Outlet/>
+      </Router>
+      </>
   )
 }
 

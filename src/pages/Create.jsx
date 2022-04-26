@@ -2,7 +2,7 @@ import React from 'react';
 import {useState,useEffect} from 'react'
 //import {useNavigate} from  'react-router-dom'
 import * as C from './style';
-
+import Photo from './img.png'
 import Input from "../Component/input/Input"
 
 import Select from "../Component/select/Select"
@@ -89,7 +89,7 @@ return(
    text={btxText}
    />
 </form>
-<img src="https://st2.depositphotos.com/35763774/43259/v/1600/depositphotos_432592632-stock-illustration-young-man-working-home-office.jpg"/>
+<img src={Photo}/>
 </C.Container>
  
  ) 

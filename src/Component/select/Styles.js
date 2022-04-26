@@ -8,7 +8,7 @@ label{
 font-size:20px;
 }
 select{
-    padding:10px;
+    padding:15px;
     color: #000;
     margin:5px;
 border-radius:10px;

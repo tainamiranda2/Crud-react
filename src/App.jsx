@@ -8,10 +8,11 @@ import {Router} from './router';
 function App() {
   return (
     <>
-    <Container/> 
-    <Router/>
+    
+     <Container/>
+      <Router/>  
+      
 
-  
     </>
   );
 }

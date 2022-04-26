@@ -12,10 +12,12 @@ label{
 }
 
 input{
-    padding: 10px;
+    padding: 15px;
   border-radius:10px;
   font-size:12px;
 
-
+}
+input:hover{
+   border:yellowgreen;
 }
 `

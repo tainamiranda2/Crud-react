@@ -1,6 +1,8 @@
 import React from 'react';
+//import Container from './Layout/Navegar/Container';
+
 //import {Container} from './Layout/Container'
-import {BrowserRouter,Routes, Route} from 'react-router-dom';
+import {BrowserRouter,Routes, Route, Navigate} from 'react-router-dom';
 //pagina de home
 import {Entrar} from './pages/Home';
 
@@ -13,11 +15,11 @@ export const Router=()=>{
   return(
   
     <BrowserRouter>
-      
     <Routes>
       
       <Route path="/" element={<Entrar/>}/>
-      
+
+
       <Route path="/step2" element={<Create/>}/>
       
       <Route path="/step3/:id" element={<Edit/>}/>
