@@ -39,7 +39,10 @@ fieldset span{
   color:#fff;
   margin: 5px;
 }
-
+h1{
+  text-align:center;
+  color:#ab79e6;
+}
 h3 {
 font-weight: bold;
  justify-content:center; 

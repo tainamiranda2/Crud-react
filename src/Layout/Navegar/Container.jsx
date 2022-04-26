@@ -8,7 +8,7 @@ function Container() {
   return (
     <>
   
-<Router>
+
 <C.Container>
   <nav>
   <ul>
@@ -24,8 +24,8 @@ function Container() {
           </nav>
           
           </C.Container>
-          <Outlet/>
-      </Router>
+         
+    
       </>
   )
 }

@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container=styled.div`
     margin: 5px;
     border: solid #7a7a7a 1px;
-    width: 50%;
+    width: 300px;
+    display:inline-block;
 h3{
 padding:10px;
 background: #ab79e6;

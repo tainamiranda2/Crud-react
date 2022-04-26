@@ -1,7 +1,7 @@
 import React from 'react';
-//import Container from './Layout/Navegar/Container';
+import Container from './Layout/Navegar/Container';
 
-//import {Container} from './Layout/Container'
+//import Container from './Layout/Container'
 import {BrowserRouter,Routes, Route, Navigate} from 'react-router-dom';
 //pagina de home
 import {Entrar} from './pages/Home';
@@ -11,12 +11,14 @@ import {Edit} from './pages/Edit';
 import {Create} from './pages/Create';
 
 import {Projeto} from './pages/Projetos';
+
 export const Router=()=>{
   return(
   
     <BrowserRouter>
+      <Container/>
     <Routes>
-      
+    
       <Route path="/" element={<Entrar/>}/>
 
 
